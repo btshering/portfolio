@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 /* ----------------------- GENERAL ---------------------*/
 
 body {
@@ -39,7 +40,6 @@ h4{
 	color: #fff;
     font-family: 'Questrial', sans-serif !important;
     font-weight: 400;
-	
     padding-left: 20px;
     font-size: 15px;
 }
@@ -47,11 +47,11 @@ h4{
 .font-small { 
     font-family: 'Questrial', sans-serif !important;
     font-weight: 300;
-    
     font-size: 12px;
     padding-left: 20px;
 	
 }
+
 
 /* -------------------------- NAVIGATION ------------------------*/
 
@@ -94,6 +94,30 @@ h4{
     right: 0;
     z-index: 1;
 }
+
+.intro-details{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 100px;
+    margin: 0 auto;
+    
+}
+
+.intro-details>h1{
+    background: rgba(0,0,0,.7);
+    padding: 10px 5px 10px 15px;
+    color: #fff;
+    margin: 0;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+
+
+
 
 /* ------------------------- ABOUT ----------------------------*/
 
@@ -175,8 +199,8 @@ h4{
     border-bottom: none;
 }
 
-.contact-section p{
-    color: #000;
+.contact-details-info{
+    margin-top: 20px;
 }
 
 .light-box {
